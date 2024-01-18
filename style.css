@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 124, 210);
+}
+.calculator{
+    background-color: rgb(43 44 53);
+    border-radius: 6%;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 600px;
+    margin: auto;
+}
+
+.inputOutput{
+    margin-top: 30px;
+    width: 329px;
+    height: 85px;
+    padding: 14px;
+    background: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.inputOutput input{
+    width: 300px;
+    height: 60px;
+    font-size: xx-large;
+    outline: none;
+    border: none;
+}
+.btnContainer{
+    margin-top: 0px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border: none;
+
+    font-size:x-large;
+}
+
+.opetationBtn{
+    background-color: rgb(179, 179, 201);
+}
+.equalBtn{
+    background-color: rgb(255, 184, 43);
+}
